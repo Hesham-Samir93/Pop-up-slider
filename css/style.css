@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(197, 197, 197);
+}
+.item_caption
+{
+    width: 80%;
+    bottom: 10%;
+    left: 10%;
+    font-family: " segeo ui light";
+    
+}
+
+.blackBox
+{
+    background-color: rgba(0, 0, 0, 0.623);
+
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+}
+.designBox
+{
+    width: 40%;
+    height: 75%;
+    background-image: url(../images/portfolio-1.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+#close
+{
+    position: absolute;
+    top: 5%; left: 90%;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+#prev , #next
+{
+    font-size: 1.5rem;
+}
+
+i
+{
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+img
+{
+    cursor: pointer;
+}
+
+.show
+{
+    display: flex;
+}
+.hide
+{
+    display: none;
+}
+.item img
+
+{
+    width: 100%;
+}
